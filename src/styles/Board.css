@@ -1,0 +1,16 @@
+.board-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.card {
+  margin: 1em;
+}
+
+@media (max-width: 600px) {
+  .board-container {
+    flex-direction: column;
+  }
+}
